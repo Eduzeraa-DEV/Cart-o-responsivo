@@ -1,0 +1,162 @@
+* {
+    margin: 2;
+    padding: 0;
+    transition: 0.4s;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-card .top {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.shopping-card {
+    width: 400px;
+    height: 450px;
+    box-shadow: 7px 6px 24px 8px #000000;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.shopping-card .top {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+   
+.shopping-card .top .fa-close {
+    margin: 10px;
+    cursor: pointer; 
+    width: 30px;
+    height: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    justify-content: center;
+}
+
+.shopping-card .top .fa-close:hover {
+    background: rgb(255, 250, 250);
+    color: rgb(0, 0, 0);
+}
+
+.shopping-card .center {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-card .center .product img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.shopping-card .bottom {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9faff;
+    border-radius: 8px;
+}
+
+.shopping-card .bottom .product-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 560; 
+    font-size: 25px;
+}
+
+.shopping-card .bottom .price {
+    font-family: "Poppins", sans-serif ;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(4, 50, 102);
+}
+
+.shopping-card .bottom .price-name {
+    color: rgb(139, 138, 138);
+
+
+}
+
+.shopping-card .bottom .ratings .fa-star {
+    color:rgb(218, 218, 214);
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.shopping-card .bottom .ratings .rated {
+    color: rgb(28, 106, 207);
+}
+
+.shopping-card .bottom .card-heart-wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.shopping-card .bottom .card-heart-wrapper .fa-star {
+    color: rgb(255, 79, 114);
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.shopping-card .bottom .add-to-card {
+    border: none;
+    height: 35px;
+    width: 100px; 
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Poppins" sans-serif;
+    background: rgb(44, 220, 144); 
+    color: #f1f1f1;
+}
+
+.shopping-card .bottom .buy-now {
+    border: none;
+    height: 35px;
+    width: 100px; 
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Poppins" sans-serif;
+    background: rgb(20, 140, 238); 
+    color: #f1f1f1;
+    margin: 5px;
+}
+
+.shopping-card .bottom .add-to-card:hover {
+    background: #0ca358;
+    color: #ffffff;
+}
+.shopping-card .bottom .buy-now:hover {
+    background-color: #05419c; /* Alterei a cor de fundo ao passar o mouse */
+    color: #fff; /* Alterei a cor do texto ao passar o mouse */
+}
+
