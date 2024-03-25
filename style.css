@@ -156,7 +156,7 @@ body,html {
     color: #ffffff;
 }
 .shopping-card .bottom .buy-now:hover {
-    background-color: #05419c; /* Alterei a cor de fundo ao passar o mouse */
-    color: #fff; /* Alterei a cor do texto ao passar o mouse */
+    background-color: #05419c; 
+    color: #fff;
 }
 
