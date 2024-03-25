@@ -6,5 +6,8 @@
 		{
 			"path": "../images"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cart-o-responsivo"
+	}
 }
