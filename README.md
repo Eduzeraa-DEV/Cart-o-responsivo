@@ -1,2 +1,3 @@
 # Cartao-responsivo
-<img width="629" alt="image" src="https://github.com/Eduzeraa-DEV/Cart-o-responsivo/assets/156840280/75ae20e5-9f50-4f10-8b79-35e4f2da7ae0">
+<img width="810" alt="image" src="https://github.com/Eduzeraa-DEV/Cart-o-responsivo/assets/156840280/c8c36216-750b-4290-b604-578521c253ad">
+
